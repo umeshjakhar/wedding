@@ -378,21 +378,21 @@ img {
 }
 
 .top-right-decoration {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	right: 0;
 	display: block;
 }
 
 .top-left-decoration {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	display: block;
 }
 
 .bottom-right-decoration {
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	right: 0;
 	display: block;
@@ -401,7 +401,7 @@ img {
 }
 
 .bottom-left-decoration {
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	display: block;
