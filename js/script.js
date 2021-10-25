@@ -92,9 +92,9 @@ var styles2 = [
 
 console.log('\n\n%c SAVE THE DATE: 15th Nov, 2021', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Mohini Devi & Sultan Singh Jakhar', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Umesh Jakhar', styles1, styles2);
 
 console.log(
-    `%c शादी में जलूल जलूल आना होगा \n\n`,
+    `%c शादी में जलूल जलूल आना होगा - Chikki \n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
