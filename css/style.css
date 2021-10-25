@@ -414,8 +414,8 @@ img {
 	font-weight: bold;
 	font-style: normal;
 	/* font-size: 65px; */
-	font-size: 3rem;
-	margin: 30px 0;
+	font-size: 2rem;
+	/* margin: 30px 0; */
 	color: #674ea7;
 	padding: 10px;
 
@@ -782,22 +782,23 @@ a {
 
   blockquote {
 	position: relative;
-	padding-left: 30px;
+	/* padding-left: 30px; */
 	font-weight: 600;
 	color: #373A63;
-	padding: 1em;
-	padding-right: 0.25em;
-	margin-left: 2.25em;
-	margin-right: 0.2em;
-	max-width: 35em;
-	font-size: 15px;
+	padding: 2em;
+	/* padding-right: 0.25em; */
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+	max-width: 30em;
+	font-size: 12px;
+	text-align: center;
   }
   blockquote::before {
 		content: "“";
 		font-family: serif;
 		position: absolute;
-		right: 100%;
-		font-size: 75px;
+		right: 95%;
+		font-size: 55px;
 		line-height: 0px;
 		top: 50px;
 		color: #674ea7;
@@ -806,15 +807,28 @@ a {
 		transform: rotate(13deg);
 	}
 	blockquote::after {
+		content: "”";
+		font-family: serif;
+		position: absolute;
+		left: 95%;
+		font-size: 55px;
+		line-height: 0px;
+		bottom: 30px;
+		color: #674ea7;
+		animation: dancing 1s linear infinite;
+		display: inline-block;
+		transform: rotate(13deg);
+	}
+	/* blockquote::after {
 		content: '';
 		display: block;
 		position: absolute;
 		top: 100%;
-		width: 80px;
+		width: 250px;
 		height: 5px;
 		background: #e56d39;
 		left: 1em;
-	}
+	} */
 
 	@keyframes dancing {
 		0% {
