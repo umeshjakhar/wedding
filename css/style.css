@@ -369,20 +369,44 @@ img {
 	.top-left-decoration {
 		max-width: 30%;
 	}
+	.bottom-right-decoration {
+		max-width: 30%;
+	}
+	.bottom-left-decoration {
+		max-width: 30%;
+	}
 }
 
 .top-right-decoration {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	display: block;
 }
 
 .top-left-decoration {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	display: block;
+}
+
+.bottom-right-decoration {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: block;
+	-webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.bottom-left-decoration {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: block;
+	-webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
 }
 
 .title h1 {
