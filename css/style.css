@@ -567,13 +567,16 @@ body {
 .place {
 	color: #874562;
 	font-weight: 900;
+	/* font-family: 'Dancing Script', cursive;
+	text-transform: capitalize; */
 }
 
 .footer {
 	color: #564861;
 	text-align: center;
-	font-size: 16px;
-	margin: 20px;
+	font-size: 13px;
+	margin: 10px;
+	
 }
 
 .phone {
@@ -766,16 +769,16 @@ a {
   .tile__img_l {
 	text-align: center;
 	height: auto;
-	object-fit: cover;
-	max-height: 180px;
+	object-fit: contain;
+	max-height: 100px;
   }
   .tile__img_r {
 	text-align: center;
 	height: auto;
-	object-fit: cover;
-	max-height: 180px;
-	-webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+	object-fit:contain;
+	max-height: 100px;
+	/* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
   }
   
 
